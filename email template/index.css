@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.head img{
+    width: 20%;
+}
+.mail{
+    padding: 10px;
+}
+.subject{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.image{
+   
+    width: 150%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+.image img{
+    width: 100%;
+}
+.specs{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+footer div{
+    display: flex;
+    
+}
+footer  div ul{
+    align-self: center;
+}
+.msg{ 
+    font-size: 12px;
+    align-self: center;
+    color: white;
+}
+.ig img{
+
+    width: 17px;
+}
+.fb img{
+    width: 8px;
+}
+.yt img{
+    width: 20px;
+}
