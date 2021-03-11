@@ -1,38 +1,47 @@
 body{
+    color: white;
     font-family: sans-serif;
     margin: 0px;
     padding: 0px;
     font-size: 16px;
 }
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    margin: 0px 10%;
+    padding: 5%;
+    background: black;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;   
+  }
 .head{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
-.head img{
-    width: 20%;
+.logo2{
+    width: 53%;
+}
+.logo{
+    width: 23%;
 }
 .mail{
     padding: 10px;
 }
-.subject{
-    font-weight: 600;
-    padding-bottom: 10px;
+.line2{
+    text-align: justify;
+    padding: 10px 0px;
 }
-.image{
-   
-    width: 150%;
-    align-self: flex-end;
-    display: flex;
-    justify-content: flex-end;
+.line1{
+    font-size: 18px;
 }
-.image img{
+#footer{
+    position: absolute;
+    bottom: 0;
     width: 100%;
-}
-.specs{
-    display: flex;
-}
-
-footer{
+    left: 0;
+    height: 2.5rem; 
     display: flex;
     justify-content: center;
     background-color: black;
@@ -42,6 +51,7 @@ footer div{
     
 }
 footer  div ul{
+    padding-left: 5vw;
     align-self: center;
 }
 .msg{ 
@@ -58,4 +68,7 @@ footer  div ul{
 }
 .yt img{
     width: 20px;
+}
+li{
+    list-style: none;
 }
