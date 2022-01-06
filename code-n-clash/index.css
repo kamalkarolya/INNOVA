@@ -1,0 +1,115 @@
+body{
+    color: rgba(0, 0, 0, 0.836);
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    margin: 0px 10%;
+    padding: 5%;
+    background: rgb(255, 255, 255);
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;   
+  }
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+.poster{
+    margin-top: 12px;
+    width: 100%;
+}
+.pos{
+   width: 100%; 
+}
+.register{
+    display: flex;
+    justify-content: center;
+}
+.reg-btn{
+    background-color: #3770ff;
+    width: 90%;
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+}
+.reg-btn:hover{
+    background-color:#1c5cff;
+}
+.reg-btn:focus{
+    background-color: #0048ff;
+}
+.reg-btn a{
+    color: beige;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.logo2{
+    width: 53%;
+}
+.logo{
+    width: 23%;
+}
+.mail{
+    padding: 10px;
+}
+.line2{
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 0px;
+}
+.line1{
+
+    font-size: 18px;
+}
+.points{
+    font-weight: 600;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 2.5rem; 
+    display: flex;
+    justify-content: center;
+   
+}
+footer div{
+    display: flex;
+    
+}
+footer li{
+    list-style: none;
+}
+footer  div ul{
+    padding-left: 4vw;
+    align-self: center;
+}
+.msg{ 
+    font-size: 0.8rem;
+    align-self: center;
+    color: rgb(0, 0, 0);
+}
+i{
+    font-size: 1.5rem;
+}
+.fb i{
+   color: #3b5998; 
+}
+.in i{
+    color: #0e76a8; 
+ }
+ .ig i{
+    color: #8a3ab9; 
+ }
+ .yt i{
+    color: #FF0000; 
+ }
+
